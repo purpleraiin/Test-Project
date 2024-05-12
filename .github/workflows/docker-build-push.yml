@@ -21,6 +21,6 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t shujaul_123/node-hello:latest -f docker/Dockerfile .
+          docker build -t shujaul210/node-hello:latest -f docker/Dockerfile .
           docker push shujaul_123/node-hello:latest
 
