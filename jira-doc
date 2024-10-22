@@ -1,4 +1,9 @@
-jira export call 
+
+https://docs.github.com/en/rest/issues/issues?apiVersion=2022-11-28#create-an-issue
+--------------------------------
+github create comment https://docs.github.com/en/rest/issues/comments?apiVersion=2022-11-28#create-an-issue-comment
+-----------------------
+jira issue export call 
 
 # This code sample uses the 'requests' library:
 # http://docs.python-requests.org
