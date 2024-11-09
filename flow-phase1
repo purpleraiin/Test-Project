@@ -1,0 +1,63 @@
+Start
+  |
+  v
+Initialize Logging
+  |
+  v
+Set JIRA Credentials
+  |
+  v
+Encode Credentials
+  |
+  v
+Set Headers
+  |
+  v
+Set JIRA API Endpoint and JQL Query
+  |
+  v
+Set Parameters for API Request
+  |
+  v
+Fetch All Fields
+  |
+  v
+Add Custom Fields to Parameters
+  |
+  v
+Initialize CSV File with Headers
+  |
+  v
+Get All Issue Details
+  |
+  v
++---------------------------+
+| Loop: Fetch Issues        |
+|                           |
+| Set startAt Parameter     |
+|   |                       |
+|   v                       |
+| Send Request to JIRA      |
+|   |                       |
+| Handle Request Exceptions |
+|   |                       |
+| Parse Response            |
+|   |                       |
+| If No Issues, Break Loop  |
+|   |                       |
+| Extract Issue Details     |
+|   |                       |
+| Write to CSV              |
+|   |                       |
+| Clear issue_details       |
+|   |                       |
+| Increment start_at        |
+|   |                       |
+| Sleep for 1 Second        |
++---------------------------+
+  |
+  v
+Log Completion
+  |
+  v
+End
